@@ -1,1 +1,10 @@
-colors grb256
+if has("gui_running")
+  set lines=90 columns=200
+  set mouse=a "get full mouse support
+
+  syntax enable
+  set background=dark
+  colorscheme solarized
+else
+  colors grb256
+endif
