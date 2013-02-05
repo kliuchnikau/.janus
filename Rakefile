@@ -12,8 +12,16 @@ task :default => [:get_grb256] do
 end
 
 task :get_grb256 do
-  grb_color_path = ROOT_PATH + '/Grb256/colors'
+  download_vim_plugin 'https://raw.github.com/garybernhardt/dotfiles/master/.vim/colors/grb256.vim',
+    ROOT_PATH + '/grb256/colors', 'grb256.vim'
+end
 
-  `mkdir -p #{grb_color_path}
-  wget -O #{grb_color_path}/grb256.vim https://raw.github.com/garybernhardt/dotfiles/master/.vim/colors/grb256.vim`
+task :get_wombat do
+  download_vim_plugin 'http://www.vim.org/scripts/download_script.php?src_id=6657',
+    ROOT_PATH + '/wombat/colors', 'wombat.vim'
+end
+
+def download_vim_plugin from_url, to_path, file_name
+  `mkdir -p #{to_path}
+  wget -O #{to_path}/#{file_name} #{from_url}`
 end
