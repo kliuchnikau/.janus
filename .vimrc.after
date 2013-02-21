@@ -1,3 +1,5 @@
+vmap <C-S-C> "+y
+
 if has("gui_running")
   set lines=90 columns=200
   set mouse=a "get full mouse support
