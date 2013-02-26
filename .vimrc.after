@@ -1,3 +1,4 @@
+map <leader><leader>r :NERDTreeFind<cr>
 vmap <C-S-C> "+y
 
 if has("gui_running")
