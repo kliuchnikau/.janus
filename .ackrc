@@ -8,7 +8,6 @@
 --ignore-dir=log
 --ignore-dir=tmp
 --ignore-dir=bin
---G '(jquery.*\.js)'
 
 --sort-files
 --color
