@@ -4,6 +4,7 @@ ROOT_PATH=~/.janus
 
 init() {
   cd $ROOT_PATH
+  ln -s .ackrc ~/.ackrc
   ln -s .vimrc.before ~/.vimrc.before
   ln -s .vimrc.after ~/.vimrc.after
   git pull && git submodule init && git submodule update && git submodule status
