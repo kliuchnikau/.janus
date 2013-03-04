@@ -3,11 +3,25 @@
 --type-add=css=.sass,.less,.scss
 --type-add=js=.coffee
 --type-set=cucumber=.feature
+--type-set=minifiedfiles=.min.js,.min.css
+--nominifiedfiles
 
 --ignore-dir=vendor
 --ignore-dir=log
 --ignore-dir=tmp
 --ignore-dir=bin
+--ignore-dir=app/assets/stylesheets/m/lib
+--ignore-dir=app/assets/javascripts/m/lib
+--ignore-dir=.sass-cache
+--ignore-dir=tinymce
+--ignore-dir=public/csv
+--ignore-dir=public/system
+--ignore-dir=public/_templates
+--ignore-dir=public/_m
+
+--ignore-file=ext:bak
+--ignore-file=ext:pdf
+--ignore-file=match:/[._].*\.swp$/
 
 --sort-files
 --color

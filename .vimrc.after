@@ -29,3 +29,5 @@ let NERDTreeWinPos='left'
 "Buffergator settings
 let g:buffergator_viewport_split_policy='R'
 let g:buffergator_autoexpand_on_split=1
+
+" Ack2 - https://github.com/petdance/ack2
