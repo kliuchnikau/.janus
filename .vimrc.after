@@ -25,3 +25,9 @@ let g:ctrlp_custom_ignore = {
 
 " NerdTree settings
 let g:NERDTreeWinSize = 30 
+let NERDTreeQuitOnOpen=1
+let NERDTreeWinPos='left'
+
+"Buffergator settings
+let g:buffergator_viewport_split_policy='R'
+let g:buffergator_autoexpand_on_split=1
