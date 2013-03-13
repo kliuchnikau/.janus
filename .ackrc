@@ -8,7 +8,9 @@
 
 --ignore-dir=vendor
 --ignore-dir=log
+--ignore-dir=coverage
 --ignore-dir=tmp
+--ignore-dir=.idea
 --ignore-dir=bin
 --ignore-dir=app/assets/stylesheets/m/lib
 --ignore-dir=app/assets/javascripts/m/lib
@@ -22,6 +24,7 @@
 --ignore-file=ext:bak
 --ignore-file=ext:pdf
 --ignore-file=match:/[._].*\.swp$/
+--ignore-file=match:/^tags$/
 
 --sort-files
 --color
