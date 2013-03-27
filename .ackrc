@@ -25,6 +25,7 @@
 --ignore-file=ext:pdf
 --ignore-file=match:/[._].*\.swp$/
 --ignore-file=match:/^tags$/
+--ignore-file=match:/(plugins|addthis_widget.*)\.js/
 
 --sort-files
 --color
