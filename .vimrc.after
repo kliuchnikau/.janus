@@ -35,5 +35,13 @@ let g:buffergator_autoexpand_on_split=1
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
 
-" Highlight trailing whitespaces as errors
-match ErrorMsg '\s\+$'
+" Highlight trailing whitespaces as todo's. Add function to trim whitespaces
+" in the whole file
+match Todo '\s\+$'
+
+function! RemoveTrailingWhitespaces()
+  %s/\s\+$//e
+endfunction
+
+nnoremap <silent> <Leader>rtw :call RemoveTrailingWhitespaces()<CR>
+"autocmd BufWritePre * call RemoveTrailingWhitespaces()
