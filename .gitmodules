@@ -10,3 +10,6 @@
 [submodule "vim-airline"]
 	path = vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "vim-trailing-whitespace"]
+	path = vim-trailing-whitespace
+	url = git@github.com:bronson/vim-trailing-whitespace.git
