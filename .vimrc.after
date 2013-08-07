@@ -38,3 +38,8 @@ cmap w!! w !sudo tee > /dev/null %
 " Trim empty whitespaces
 map <Leader>rtw :FixWhitespace<CR>
 autocmd BufWritePre * :FixWhitespace
+
+" Easy folding toggling
+nnoremap <Space> za
+
+" TODO: think about shortcuts to work with tabs - use very frequently
