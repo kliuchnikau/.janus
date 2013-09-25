@@ -23,9 +23,11 @@
 
 --ignore-file=ext:bak
 --ignore-file=ext:pdf
+--ignore-file=ext:md
 --ignore-file=match:/[._].*\.swp$/
 --ignore-file=match:/^tags$/
 --ignore-file=match:/(plugins|addthis_widget.*)\.js/
+--ignore-file=match:/^metadata\.json$/
 
 --sort-files
 --color

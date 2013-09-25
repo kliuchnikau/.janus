@@ -43,3 +43,5 @@ autocmd BufWritePre * :FixWhitespace
 nnoremap <Space> za
 
 " TODO: think about shortcuts to work with tabs - use very frequently
+
+map <leader>h :nohlsearch<cr>
