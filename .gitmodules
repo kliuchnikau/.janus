@@ -13,3 +13,6 @@
 [submodule "vim-trailing-whitespace"]
 	path = vim-trailing-whitespace
 	url = git@github.com:bronson/vim-trailing-whitespace.git
+[submodule "vim-slim"]
+	path = vim-slim
+	url = git@github.com:slim-template/vim-slim.git
