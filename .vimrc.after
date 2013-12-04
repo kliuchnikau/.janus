@@ -1,4 +1,5 @@
 map <leader><leader>r :NERDTreeFind<cr>
+" Copy selection to system's clipboard. Vim must be compiled with the +clipboard key for this to work.
 vmap <C-S-C> "+y
 
 if has("gui_running")
