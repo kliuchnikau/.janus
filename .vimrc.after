@@ -44,5 +44,18 @@ autocmd BufWritePre * :FixWhitespace
 nnoremap <Space> za
 
 " TODO: think about shortcuts to work with tabs - use very frequently
-
 map <leader>h :nohlsearch<cr>
+
+" Gitgutter
+"highlight clear SignColumn
+highlight link GitGutterAdd DiffAdd
+highlight link GitGutterChange DiffChange
+highlight link GitGutterDelete DiffDelete
+highlight link GitGutterChangeDelete DiffChange
+"highlight GitGutterAdd ctermbg=120
+"highlight GitGutterChange ctermbg=120
+"highlight GitGutterDelete ctermbg=120
+"highlight GitGutterChangeDelete ctermbg=120
+let g:gitgutter_realtime = 0
+let g:gitgutter_eager = 0
+let g:gitgutter_map_keys = 0
