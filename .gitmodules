@@ -19,3 +19,6 @@
 [submodule "CoVim"]
 	path = CoVim
 	url = git@github.com:FredKSchott/CoVim.git
+[submodule "vim-swift"]
+	path = vim-swift
+	url = git://github.com/toyamarinyon/vim-swift.git
