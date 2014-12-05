@@ -1,5 +1,4 @@
 let mapleader=","
 
 call janus#disable_plugin('arduino')
-call janus#disable_plugin('haskell')
 call janus#disable_plugin('scala')
