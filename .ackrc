@@ -20,8 +20,7 @@
 --ignore-dir=tinymce
 --ignore-dir=public/csv
 --ignore-dir=public/system
---ignore-dir=public/_templates
---ignore-dir=public/_m
+--ignore-dir=db/seeds
 
 --ignore-file=ext:bak
 --ignore-file=ext:pdf
