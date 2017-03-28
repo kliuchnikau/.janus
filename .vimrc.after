@@ -62,3 +62,6 @@ let g:gitgutter_map_keys = 0
 
 " Do not do syntax highlighting for large files
 autocmd BufWinEnter * if line2byte(line("$") + 1) > 1000000 | syntax clear | endif
+
+" spaces instead of tabs for .rake files
+autocmd Filetype rake set shiftwidth=2|set softtabstop=2|set expandtab|set autoindent
