@@ -30,6 +30,7 @@
 --ignore-file=match:/^tags$/
 --ignore-file=match:/(plugins|addthis_widget.*)\.js/
 --ignore-file=match:/^metadata\.json$/
+--ignore-file=match:/.byebug_history/
 
 --sort-files
 --color
