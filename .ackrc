@@ -22,6 +22,7 @@
 --ignore-dir=public/system
 --ignore-dir=public/assets
 --ignore-dir=db/seeds
+--ignore-dir=.yardoc
 
 --ignore-file=ext:bak
 --ignore-file=ext:pdf
