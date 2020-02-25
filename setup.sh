@@ -28,4 +28,5 @@ download_vim_plugin() {
   wget -O $2/$3 $1
 }
 
+
 init

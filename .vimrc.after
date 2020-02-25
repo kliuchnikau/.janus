@@ -43,7 +43,7 @@ autocmd BufWritePre * :FixWhitespace
 " Easy folding toggling
 nnoremap <Space> za
 
-" TODO: think about shortcuts to work with tabs - use very frequently
+" Clear highlighting, useful after * command
 map <leader>h :nohlsearch<cr>
 
 " Gitgutter
