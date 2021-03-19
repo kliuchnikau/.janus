@@ -25,3 +25,6 @@
 [submodule "vim-terraform"]
 	path = vim-terraform
 	url = https://github.com/hashivim/vim-terraform
+[submodule "vim-rhubarb"]
+	path = vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
