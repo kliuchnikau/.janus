@@ -13,9 +13,6 @@
 [submodule "vim-slim"]
 	path = vim-slim
 	url = git@github.com:slim-template/vim-slim.git
-[submodule "vim-swift"]
-	path = vim-swift
-	url = git://github.com/toyamarinyon/vim-swift.git
 [submodule "alchemist.vim"]
 	path = alchemist.vim
 	url = git@github.com:slashmili/alchemist.vim.git
