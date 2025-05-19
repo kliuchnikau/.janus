@@ -1,5 +1,6 @@
 let mapleader=","
 
 call janus#disable_plugin('arduino')
+call janus#disable_plugin('tlib')
 
 " TODO: install Metals for Scala support https://scalameta.org/metals/docs/editors/vim.html#installing-yarn
