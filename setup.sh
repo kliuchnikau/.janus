@@ -25,8 +25,7 @@ get_wombat() {
 
 download_vim_plugin() {
   mkdir -p $2
-  wget -O $2/$3 $1
+  curl $1 -o $2/$3
 }
-
 
 init
