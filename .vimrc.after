@@ -70,3 +70,8 @@ autocmd Filetype rake set shiftwidth=2|set softtabstop=2|set expandtab|set autoi
 " Highlight words without moving to the next selection (for simple * click)
 " https://vim.fandom.com/wiki/Highlight_all_search_pattern_matches#Highlight_matches_without_moving
 nnoremap * :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls<CR>
+
+let g:gutentags_project_root = ['.git']
+let g:gutentags_ctags_tagfile = 'tags'
+" Keep tags in a central directory to avoid cluttering projects
+"let g:gutentags_cache_dir = expand('~/.cache/vim/ctags/')

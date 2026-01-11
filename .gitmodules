@@ -22,3 +22,6 @@
 [submodule "vim-rhubarb"]
 	path = vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "vim-gutentags"]
+	path = vim-gutentags
+	url = git@github.com:ludovicchabant/vim-gutentags.git
