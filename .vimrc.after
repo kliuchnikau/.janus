@@ -18,8 +18,8 @@ endif
 
 " CtrlP settings
 let g:ctrlp_custom_ignore = {
-  \ 'dir': '\v[\/]\.(git|hg|svn|sass-cache|bundle)$|\v[\/]public|node_modules|\v[\/]public\/system|log$|tmp$|bin$|coverage$',
-  \ 'file': '\v\.(exe|so|dll|jpg|png|gif|jpeg|scssc|pdf)$'
+  \ 'dir': '\v[\/]\.(git|hg|svn|sass-cache|bundle)$|\v[\/]public|node_modules|\v[\/]public\/system|log$|tmp$|bin$|coverage|__pycache__$',
+  \ 'file': '\v\.(exe|so|dll|jpg|png|gif|jpeg|scssc|pdf|pyc)$'
   \ }
 let g:ctrlp_prompt_mappings = { 'PrtInsert("c")':       ['<D-v>', '<c-v>', '<MiddleMouse>', '<insert>']}
 
